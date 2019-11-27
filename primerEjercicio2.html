@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="primerEjercicio.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .container{
+            width: 30rem;
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h4 {
+            text-align: end;
+            margin-top: 2rem;
+        }
+
+        input {
+            width: 8rem;
+        }
+
+        hr {
+            background-color: black;
+            width: 8rem;
+            height: 1px;
+            
+        }
+        .d-flex input{
+            margin: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Indice de massa corporal</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>IMC =</h4>
+            </div>
+            <div class="col-md-6 d-flex flex-column  align-self-center">
+                <input type="text" id="peso">
+                <hr>
+                <input type="text" id="altura">
+                
+
+            </div>
+            <div class="col-md-2 d-flex align-content-center ">
+                    <button style="height: 3rem;
+                    margin-top: 1.5rem;" type="button" class="btn btn-light" onClick="calcular();">Calcular</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
